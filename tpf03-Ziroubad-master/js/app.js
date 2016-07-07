@@ -19,18 +19,14 @@ function terminerTransaction() {
 }
 
 // premeier partie de tp03: création de 5 objet;
-var   café1 ={
+var   cafe ={
 	nom: "Noir", lit :0,sucre: 2,
-};
-var   café2 ={nom: "capotchino", lit : 3,sucre:3,
-};
-var   café3 ={nom: "espresso", lit : 0 ,sucre:1,
-};
-var   café4 ={nom: "laté", lit : 2,sucre:2,
-};
-var   café5 ={nom: "vanille francais", lit :2,sucre:3,
+	}
+moncons: function(){
+	var nom ="laté";
+	console.info(this.nom);
+	}
 };
 
-console.info(café1);
 
-
+console.info(café.moncons);
