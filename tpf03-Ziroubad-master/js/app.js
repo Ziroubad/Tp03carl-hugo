@@ -20,9 +20,7 @@ function terminerTransaction() {
 
 // premeier partie de tp03: création de 5 objet;
 var   cafe ={
-	nom: "Noir",
-	lit :0,
-	sucre: 2,
+	nom: "Noir", lit :0,sucre: 2,
 	}
 moncons: function(){
 	var nom ="laté";
@@ -30,5 +28,5 @@ moncons: function(){
 	}
 };
 
-//
+
 console.info(café.moncons);
